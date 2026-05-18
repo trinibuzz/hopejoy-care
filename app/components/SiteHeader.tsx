@@ -14,14 +14,22 @@ const navLinks = [
 export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-[#D9A441]/30 bg-[#FFF8EF]/95 backdrop-blur-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4">
-        <Link href="/" className="flex shrink-0 flex-col leading-tight">
-          <span className="text-xl font-bold tracking-tight text-[#0F5B5B]">
-            Hope & Joy
-          </span>
-          <span className="text-[10px] font-medium uppercase tracking-[0.2em] text-[#D9A441] sm:text-xs">
-            Assisted Living Placement
-          </span>
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3">
+        <Link href="/" className="flex shrink-0 items-center gap-3">
+          <img
+            src="/images/hopejoy-logo.png"
+            alt="Hope & Joy Assisted Living Placement Agency"
+            className="h-16 w-16 rounded-full object-contain"
+          />
+
+          <div className="hidden leading-tight sm:block">
+            <span className="block text-xl font-bold tracking-tight text-[#0F5B5B]">
+              Hope & Joy
+            </span>
+            <span className="block text-[10px] font-medium uppercase tracking-[0.2em] text-[#D9A441]">
+              Assisted Living Placement
+            </span>
+          </div>
         </Link>
 
         <nav className="hidden flex-1 items-center justify-center gap-4 text-sm font-medium text-[#243232] xl:flex">
