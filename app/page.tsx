@@ -96,75 +96,19 @@ export default function HomePage() {
 
           <div className="relative">
             <div className="rounded-[2.5rem] border border-white/15 bg-white/10 p-4 shadow-2xl backdrop-blur">
-              <div className="relative overflow-hidden rounded-[2rem] bg-[#FFF8EF] p-7">
-                <div className="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-[#D9A441]/25 blur-2xl" />
-                <div className="absolute -bottom-20 -left-20 h-56 w-56 rounded-full bg-[#F6D8C3]/70 blur-2xl" />
-
-                <div className="relative min-h-[460px] rounded-[1.7rem] border border-[#D9A441]/25 bg-white p-7 shadow-xl">
-                  <div className="rounded-[1.5rem] bg-gradient-to-br from-[#0F5B5B] to-[#243232] p-7 text-white">
-                    <p className="text-sm font-bold uppercase tracking-[0.22em] text-[#D9A441]">
-                      Hope & Joy Care Promise
+              <div className="overflow-hidden rounded-[2rem] bg-[#FFF8EF] shadow-xl">
+                <div className="relative min-h-[500px] bg-[linear-gradient(90deg,_rgba(255,248,239,0.08),_rgba(15,91,91,0.12)),url('/images/hopejoy-hero-care.png')] bg-cover bg-center">
+                  <div className="absolute bottom-6 left-6 right-6 rounded-3xl bg-white/92 p-6 shadow-xl backdrop-blur">
+                    <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#D9A441]">
+                      Care with dignity
                     </p>
-
-                    <h2 className="mt-4 text-3xl font-bold leading-tight">
-                      The right home, the right care, the right guidance.
+                    <h2 className="mt-3 text-2xl font-bold text-[#0F5B5B]">
+                      Safe, loving care in a peaceful home setting.
                     </h2>
-
-                    <p className="mt-4 leading-7 text-white/78">
-                      We help families make elder care decisions with comfort,
-                      compassion, and confidence.
+                    <p className="mt-3 text-sm leading-6 text-[#243232]/75">
+                      Helping families find trusted assisted living homes with
+                      comfort, compassion, and peace of mind.
                     </p>
-                  </div>
-
-                  <div className="mt-6 grid gap-4 sm:grid-cols-2">
-                    <div className="rounded-3xl bg-[#FFF8EF] p-5">
-                      <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#D9A441] text-xl">
-                        ♥
-                      </div>
-                      <h3 className="font-bold text-[#0F5B5B]">
-                        Family First
-                      </h3>
-                      <p className="mt-2 text-sm leading-6 text-[#243232]/65">
-                        We listen to your family’s needs before recommending
-                        care options.
-                      </p>
-                    </div>
-
-                    <div className="rounded-3xl bg-[#FFF8EF] p-5">
-                      <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#F6D8C3] text-xl">
-                        🏡
-                      </div>
-                      <h3 className="font-bold text-[#0F5B5B]">
-                        Trusted Homes
-                      </h3>
-                      <p className="mt-2 text-sm leading-6 text-[#243232]/65">
-                        We connect families with suitable assisted living homes.
-                      </p>
-                    </div>
-
-                    <div className="rounded-3xl bg-[#FFF8EF] p-5">
-                      <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#F6D8C3] text-xl">
-                        🌎
-                      </div>
-                      <h3 className="font-bold text-[#0F5B5B]">
-                        Caribbean Network
-                      </h3>
-                      <p className="mt-2 text-sm leading-6 text-[#243232]/65">
-                        Serving Trinidad, Tobago, and families across the
-                        Caribbean.
-                      </p>
-                    </div>
-
-                    <div className="rounded-3xl bg-[#FFF8EF] p-5">
-                      <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#D9A441] text-xl">
-                        ✓
-                      </div>
-                      <h3 className="font-bold text-[#0F5B5B]">10+ Years</h3>
-                      <p className="mt-2 text-sm leading-6 text-[#243232]/65">
-                        Experience helping families choose care with peace of
-                        mind.
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>
